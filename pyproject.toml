@@ -1,5 +1,5 @@
 [project]
-name = "uvloop"
+name = "uvloop-canary"
 description = "Fast implementation of asyncio event loop on top of libuv"
 authors = [{name = "Yury Selivanov", email = "yury@magic.io"}]
 requires-python = '>=3.8.1'
@@ -30,7 +30,7 @@ classifiers = [
 ]
 
 [project.urls]
-github = "https://github.com/MagicStack/uvloop"
+github = "https://github.com/sunday-robotics/uvloop"
 
 [project.optional-dependencies]
 test = [
